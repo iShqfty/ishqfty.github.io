@@ -8,25 +8,23 @@
     /* Height & width depends on how you want to reveal the overlay (see JS below) */   
     height: 100%;
     width: 0;
-    position: fixed; /* Stay in place */
+    position:fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
     left: 0;
-    top: 0;
-    background-color: rgb(0,0,0); /* Black fallback color */
-    background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
-    overflow-x: hidden; /* Disable horizontal scroll */
+    top: 50;
+    overflow-x: hidden;
     transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+    background-color: rgb(40,40,40,.09);
   }
   
   /* Position the content inside the overlay */
   .overlay-content {
-    background-color: rgb(0,0,0); /* Black fallback color */
-    background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
     position: relative;
     top: 25%; /* 25% from the top */
     width: 100%; /* 100% width */
     text-align: center; /* Centered text/links */
     margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+    background-color: rgb(40,40,40,.09);
   }
   
   /* The navigation links inside the overlay */
@@ -35,10 +33,9 @@
     text-decoration: none;
     font-size: 36px;
     color: #818181;
-    background-color: rgb(0,0,0); /* Black fallback color */
-    background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
     display: block; /* Display block instead of inline */
     transition: 0.5s; /* Transition effects on hover (color) */
+    background-color: rgb(40,40,40,.09);
   }
   
   /* When you mouse over the navigation links, change their color */
@@ -64,7 +61,7 @@
     }
   }
 
-  #tabbar {
+#tabbar {
     height: 40px;
     background-color: rgb(25,25,25);
   }
@@ -80,23 +77,20 @@
 
   #tabbar a:hover {
     cursor:pointer;
-
   }
 
   #hamburger {
     padding: 0.5em !important;
   }
 
-  .font_open_sans {
-    font-family: 'Open Sans';
+  #documentationList {
+    background-color: rgb(40,40,40);
   }
 
-  
+  .title_font {
+    font-family: Menlo,Consolas,Monaco,Liberation Mono,Lucida Console,monospace;
+  }
 
-  .connection_icon {
-    border-radius: 2.5;
-    max-width: 50;
-    max-height: 50;
-    background-color: transparent;
-    padding-top: 5px;
+  .smaller_font {
+    font-size:25px !important;
   }
