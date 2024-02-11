@@ -2,36 +2,91 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <title>About iShqfty</title>
+    <link rel="stylesheet" href="basestyle.css">
     <script src="functional.js"></script>
-    <title>iShqfty</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    
 </head>
 <body>
-    <!-- The overlay -->
+    <div id="back"></div>
     <div id="myNav" class="overlay">
 
-    <!-- Button to close the overlay navigation -->
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    
-        <!-- Overlay content -->
-        <div class="overlay-content font_open_sans">
-        <a href="il2cpp/il2cppindex.html">IL2CPP Reversing</a>
+            <div class="overlay_fake_nav"><a href="javascript:void(0)" class="text_large" onclick="closeNav()">☰ Info Tab</a></div>
+
+            <br><br>
+            <a class="text_large sidebar_link">About</a>
+            <br><br>
+            <a class="text_large sidebar_link">Projects</a>
+            <br><br>
+            <a class="text_large sidebar_link">Documentation</a>
+            <br><br>
+            <a class="text_large sidebar_link">LeetCode</a>
+            <br><br>
+            <a class="text_large sidebar_link">Videos</a>
+
         </div>
-    </div>
-  
-  <!-- Use any element to open/show the overlay navigation menu -->
-  <div id="tabbar">
-  <a id="hamburger" onclick="openNav()">≡</a>
-    <a href="https://www.youtube.com/channel/UCXBkYVuVRTtNw34khXt8tiA" target="_blank"><img width="25" height="25" class="connection_icon" src="https://www.svgrepo.com/show/416500/youtube-circle-logo.svg"></a>
-    <a href="https://open.spotify.com/user/wn6dwyajaqwvg6z7jixxfiw54" target="_blank"><img width="25" height="25" class="connection_icon" src="https://static-00.iconduck.com/assets.00/spotify-icon-2048x2048-5gqpkwih.png"></a>
-    <a href="https://github.com/iShqfty" target="_blank"><img width="25" height="25" class="connection_icon" src="https://static-00.iconduck.com/assets.00/github-icon-2048x1988-jzvzcf2t.png"></a>
+        </div>
 
-    <a href="https://discord.com/users/1191095107617837180" target="_blank"><img width="25" height="25" class="connection_icon" src="https://cdn-icons-png.flaticon.com/512/3670/3670157.png"></a>
-    <a href="https://steamcommunity.com/profiles/76561199083805988/" target="_blank"><img width="25" height="25" class="connection_icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/2048px-Steam_icon_logo.svg.png"></a>
+        <div class="navbar">
+            <a class="text_large" onclick="openNav()" id="hamburger">☰</a>
+            <div class="links_wrapper">
+            <a class="text_medium">About</a>
+            <a class="text_medium">Projects</a>
+            <a class="text_medium">Documentation</a>
+            <a class="text_medium">LeetCode</a>
+            <a class="text_medium">Videos</a>
+            </div>
+        </div>
 
-    <a href="https://cash.app/$ishqfty" target="_blank"><img width="25" height="25" class="connection_icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Square_Cash_app_logo.svg/1200px-Square_Cash_app_logo.svg.png"></a>
-    
-</div>
+        <div class="main_article">
+            <div class="intro"><p>
+
+                <br>
+                
+                <a href="https://github.com/iShqfty" target="_blank"><img class="profile_img" src="https://avatars.githubusercontent.com/u/76799463"></a>
+
+                <br><br>
+
+                <strong>
+                    <a class="text_large intro_title">Hi, I'm iShqfty.</a>
+                </strong>
+                
+                <br><br>
+                
+                <a class="text_medium">A young software engineer with a strong passion for reverse engineering,<br>app designing & all-levels system development.</a>
+
+                <br><br>
+
+                <a class="socials">
+                    <a href="https://github.com/iShqfty" style="text-decoration: none;" target="_blank">
+                        <img class="social_img" src="https://cdn-icons-png.flaticon.com/512/25/25231.png">
+                    </a>
+
+                    <a href="https://www.youtube.com/channel/UCXBkYVuVRTtNw34khXt8tiA" style="text-decoration: none;" target="_blank">
+                        <img class="social_img" src="https://i.pinimg.com/originals/20/9b/d8/209bd859c265e7ffc4bfeb75877b23f7.png">
+                    </a>
+                    
+                    <a href="https://open.spotify.com/user/wn6dwyajaqwvg6z7jixxfiw54" style="text-decoration: none;" target="_blank">
+                        <img class="social_img" src="https://cdn-icons-png.freepik.com/512/87/87409.png">
+                    </a>
+
+                    <a href="https://discord.com/users/1191095107617837180" style="text-decoration: none;" target="_blank">
+                        <img class="social_img" src="https://cdn.icon-icons.com/icons2/3398/PNG/512/discord_logo_icon_214740.png">
+                    </a>
+
+                    <a href="https://cash.app/$ishqfty" style="text-decoration: none;" target="_blank">
+                        <img class="social_img" src="https://cdn.iconscout.com/icon/free/png-256/free-cashapp-3628082-3030463.png">
+                    </a>
+                    
+                    <a href="https://steamcommunity.com/profiles/76561199083805988/" style="text-decoration: none;" target="_blank">
+                        <img class="social_img" src="https://cdn.freebiesupply.com/images/large/2x/steam-logo-black-transparent.png">
+                    </a>
+                </a>
+            </div></p>
+        </div>
 </body>
 </html>
