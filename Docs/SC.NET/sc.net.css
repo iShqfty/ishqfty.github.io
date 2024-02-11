@@ -1,0 +1,12 @@
+.docs_article {
+    display:flex;
+    align-items:normal;
+}
+
+.docs_article div {
+    padding: 15px;
+    border-left: 0.5mm solid;
+    border-right: 0.5mm solid;
+    border-top: 0.5mm solid;
+    border-color: rgb(200,200,200);
+}
