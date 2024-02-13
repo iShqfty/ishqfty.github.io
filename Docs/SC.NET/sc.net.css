@@ -5,8 +5,20 @@
 
 .docs_article div {
     padding: 15px;
-    border-left: 0.5mm solid;
-    border-right: 0.5mm solid;
-    border-top: 0.5mm solid;
-    border-color: rgb(200,200,200);
+}
+
+.docs_class {
+    text-decoration: underline;
+    text-decoration-color: rgb(200,200,200);
+    font-weight: bold;
+}
+
+#fakelink {
+    font-style:normal;
+    font-weight: bold;
+}
+
+#fakelink:hover {
+    text-decoration: underline;
+    cursor:pointer;
 }

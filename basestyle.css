@@ -83,7 +83,7 @@
     animation-fill-mode:forwards;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 900px) {
     .links_wrapper {
         width:100%;
     }

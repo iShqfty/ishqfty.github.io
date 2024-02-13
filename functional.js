@@ -85,3 +85,7 @@ function openNav() {
     if (LeetCodeOpen)
       toggleLeetCode();
   }
+
+  function openInNewTab() {
+    window.open("https://swimcloud.com/", '_blank').focus();
+  }
